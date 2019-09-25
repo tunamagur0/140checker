@@ -11,7 +11,6 @@
 </template>
 
 <script>
-import { text } from "body-parser";
 export default {
   name: "Checker",
   data: function() {
@@ -32,7 +31,7 @@ export default {
     }
   },
   methods: {
-    copy: function(event) {
+    copy: function() {
       const textarea = document.createElement("textarea");
       textarea.textContent = this.message + this.label;
       document.body.appendChild(textarea);
