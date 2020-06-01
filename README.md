@@ -1,29 +1,11 @@
-# app
+![demo](/screenshot.gif?raw=true, "demo")
 
-## Project setup
-```
-npm install
-```
+# 文字数チェッカー
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+文字数を調べてクリップボートにコピーできる Web アプリケーションです。
 
-### Compiles and minifies for production
-```
-npm run build
-```
+https://editor-140.herokuapp.com/
 
-### Run your tests
-```
-npm run test
-```
+### 技術的なこと
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Vue.js
